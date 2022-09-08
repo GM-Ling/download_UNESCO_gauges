@@ -6,7 +6,7 @@ clearvars;
 clc
 !rm *.csv
 
-stations = load('unesco_guages_ID.dat');
+stations = load('unesco_gauges_ID.dat');
 
 
 init = datetime('now');
